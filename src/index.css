@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --color-primary-bg: rgb(250 250 250);;   /* Light background */
+    --color-text: #171C28;         /* Dark text color for light theme */
+    --color-secondary: #007BFF;    /* Secondary color (can remain the same) */
+    --color-highlight-bg: #FFFF00; /* Highlight background (yellow) */
+    --color-highlight-text: #171C28; /* Text color when highlighted */
+    --color-bold-text: #000000;    /* Bold text color (black) */
+  }
+
+  /* Light theme overrides */
+  .light-theme {
+    /* Dark theme (default) */
+    --color-primary-bg: #171C28;   /* Dark background */
+    --color-text: #FFFFFF;         /* Text color for dark theme */
+    --color-secondary: #007BFF;    /* Secondary color */
+    --color-highlight-bg: #FFFF00; /* Highlight background (yellow) */
+    --color-highlight-text: #171C28; /* Text color when highlighted */
+  }
+
+  a {
+    color: var(--color-secondary);
+  }
+
+  ::selection {
+    background-color: var(--color-highlight-bg);
+    color: var(--color-highlight-text);
+  }
+
+}
+
+
