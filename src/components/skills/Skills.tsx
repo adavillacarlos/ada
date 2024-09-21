@@ -10,7 +10,7 @@ export default function Skills() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
           <div className="md:col-span-1">
             <b className="text-blue-600">LANGUAGES</b>
-            <ul className="mt-2">
+            <ul className="mt-2 text-sm">
               <li>JavaScript</li>
               <li>Python</li>
               <li>Java</li>
@@ -18,7 +18,7 @@ export default function Skills() {
           </div>
           <div className="md:col-span-1">
             <b className="text-blue-600">FRAMEWORKS</b>
-            <ul className="mt-2">
+            <ul className="mt-2 text-sm">
               <li>React</li>
               <li>Vue.js</li>
               <li>Angular</li>
@@ -26,7 +26,7 @@ export default function Skills() {
           </div>
           <div className="md:col-span-1">
             <b className="text-blue-600">TOOLS</b>
-            <ul className="mt-2">
+            <ul className="mt-2 text-sm">
               <li>Git</li>
               <li>Docker</li>
               <li>Jenkins</li>
@@ -34,7 +34,7 @@ export default function Skills() {
           </div>
           <div className="md:col-span-1">
             <b className="text-blue-600">DESIGN</b>
-            <ul className="mt-2">
+            <ul className="mt-2 text-sm">
               <li>Figma</li>
               <li>Adobe XD</li>
               <li>Sketch</li>

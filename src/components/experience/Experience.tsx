@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Experience() {
   return (
@@ -13,50 +12,49 @@ export default function Experience() {
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">Full Scale</div>
-              <div className="text-gray-300">Software Developer</div>
+              <div className="text-gray-300 text-sm">Software Developer</div>
             </div>
-            <div className="text-gray-400 text-right">Jul 2023 - Present</div>
+            <div className="text-gray-400 text-right text-sm">Jul 2023 - Present</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">Freelance</div>
-              <div className="text-gray-300">UI/UX Designer</div>
+              <div className="text-gray-300 text-sm">UI/UX Designer</div>
             </div>
-            <div className="text-gray-400 text-right">Jan - Jul 2024</div>
+            <div className="text-gray-400 text-right text-sm">Jan - Jul 2024</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">Full Scale</div>
-              <div className="text-gray-300">Software Developer Intern</div>
+              <div className="text-gray-300 text-sm">Software Developer Intern</div>
             </div>
-            <div className="text-gray-400 text-right">Jul - Aug 2022</div>
+            <div className="text-gray-400 text-right text-sm">Jul - Aug 2022</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">KLB Solutions</div>
-              <div className="text-gray-300">Fullstack Developer</div>
+              <div className="text-gray-300 text-sm">Fullstack Developer</div>
             </div>
-            <div className="text-gray-400 text-right">Aug - Sept 2021</div>
+            <div className="text-gray-400 text-right text-sm">Aug - Sept 2021</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">Freelance</div>
-              <div className="text-gray-300">Graphic Designer</div>
+              <div className="text-gray-300 text-sm">Graphic Designer</div>
             </div>
-            <div className="text-gray-400 text-right">Jul 2019 - Mar 2021</div>
+            <div className="text-gray-400 text-right text-sm">Jul 2019 - Mar 2021</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold">Freelance</div>
-              <div className="text-gray-300">Frontend Web Developer</div>
+              <div className="text-gray-300 text-sm">Frontend Web Developer</div>
             </div>
-            <div className="text-gray-400 text-right">Jul 2019 - Mar 2020</div>
+            <div className="text-gray-400 text-right text-sm">Jul 2019 - Mar 2020</div>
           </div>
-        
         </div>
         <div className="mt-20 md:mt-20 dark:text-white">
-            <h1 className="text-lg font-bold">View My Resume</h1>
-          </div>
+          <h1 className="text-lg font-bold">View My Resume</h1>
+        </div>
       </div>
     </div>
   );
