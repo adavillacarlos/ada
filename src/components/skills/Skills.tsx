@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Skills() {
   return (
@@ -11,17 +10,20 @@ export default function Skills() {
           <div className="md:col-span-1">
             <b className="text-blue-600">LANGUAGES</b>
             <ul className="mt-2 text-sm">
-              <li>JavaScript</li>
-              <li>Python</li>
+              <li>C#</li>
               <li>Java</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>C</li>
+              <li>Python</li>
             </ul>
           </div>
           <div className="md:col-span-1">
             <b className="text-blue-600">FRAMEWORKS</b>
             <ul className="mt-2 text-sm">
-              <li>React</li>
+              <li>ReactJS</li>
               <li>Vue.js</li>
-              <li>Angular</li>
+              <li>ASP.NET</li>
             </ul>
           </div>
           <div className="md:col-span-1">
@@ -29,15 +31,16 @@ export default function Skills() {
             <ul className="mt-2 text-sm">
               <li>Git</li>
               <li>Docker</li>
-              <li>Jenkins</li>
+              <li>Jira</li>
             </ul>
           </div>
           <div className="md:col-span-1">
             <b className="text-blue-600">DESIGN</b>
             <ul className="mt-2 text-sm">
               <li>Figma</li>
-              <li>Adobe XD</li>
-              <li>Sketch</li>
+              <li>Photoshop</li>
+              <li>Prototyping</li>
+              <li>Wireframing</li>
             </ul>
           </div>
         </div>

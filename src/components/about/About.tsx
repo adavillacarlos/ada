@@ -7,11 +7,17 @@ export default function About() {
         <span className="font-bold text-left md:text-right pb-4 md:mr-20 text-blue-600 ">ABOUT</span>
       </div>
       <div className="md:col-span-2 dark:text-white">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac
-          cursus ante, ut imperdiet mauris. Cras a rutrum lacus, non ullamcorper
-          lorem. Integer eu metus placerat, posuere lorem interdum, porttitor
-          urna. Nunc non magna ut lacus tempor faucibus non at dui.
+        <p className="text-gray-300">
+        I'm a passionate developer specializing in crafting stunning interfaces and intuitive user experiences. 
+        My expertise lies at the crossroads of design and development, where I create digital solutions that are not 
+        only visually striking but also optimized for performance and accessibility.
+        <br/><br/>
+        Currently, I work as a fullstack developer at <b className="text-white">Full Scale</b>, where I contribute to the creation and enhancement of 
+        diverse applications tailored to meet unique client needs. Alongside this role, I also offer freelance UI/UX design services, 
+        delivering designs that adhere to web accessibility standards and best practices, ensuring inclusive experiences for all users.
+        <br/><br/>
+        When I'm not working, you'll often find me reading novels, enjoying Asian dramas and anime, 
+        or exploring new cafes in search of inspiration.
         </p>
       </div>
     </div>

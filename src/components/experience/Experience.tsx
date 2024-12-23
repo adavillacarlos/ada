@@ -53,7 +53,9 @@ export default function Experience() {
           </div>
         </div>
         <div className="mt-20 md:mt-20 dark:text-white">
-          <h1 className="text-lg font-bold">View My Resume</h1>
+          <a href="/public/AdaPaulineVillacarlos-Resume2024.pdf" target="_blank" rel="noopener noreferrer">
+            <h1 className="text-lg font-bold title-link">View My Resume</h1>
+          </a>
         </div>
       </div>
     </div>
