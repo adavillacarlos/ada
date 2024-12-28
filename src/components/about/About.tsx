@@ -4,7 +4,7 @@ export default function About() {
       <div className="flex justify-start md:justify-end md:col-span-1">
         <span className="font-bold text-left md:text-right pb-4 md:mr-20 text-blue-600 ">ABOUT</span>
       </div>
-      <div className="md:col-span-2 dark:text-white">public/AdaPaulineVillacarlos-Resume2024.pdf
+      <div className="md:col-span-2 dark:text-white">
         <p className="text-gray-300">
         I'm a passionate developer specializing in crafting stunning interfaces and intuitive user experiences. 
         My expertise lies at the crossroads of design and development, where I create digital solutions that are not 
