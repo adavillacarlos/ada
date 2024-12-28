@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Project() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 md:px-20 mt-16 md:mt-20 md:py-10 max-w-screen-lg mx-auto">

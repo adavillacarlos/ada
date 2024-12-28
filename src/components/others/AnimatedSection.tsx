@@ -1,7 +1,11 @@
 import { motion, useAnimation, useInView } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
+interface AnimatedSectionProps {
+  children: ReactNode;
+  transitionDelay?: number;
+}
 
-const AnimatedSection = ({ children, transitionDelay = 0.25 }) => {
+const AnimatedSection = ({ children, transitionDelay = 0.25 }: AnimatedSectionProps) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false }); // Changed to false
   const controls = useAnimation();
