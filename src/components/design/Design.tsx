@@ -22,7 +22,7 @@ export default function Design() {
             <div className="flex flex-col">
               <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/213980689/Company-Website-UI">Topline</a></div>
               <div className="text-gray-300 text-sm">
-              or Topline, a clean and informative website was created to showcase the company’s history, 
+              A clean and informative website was created to showcase the company’s history, 
               services, and timeline. It also features a hiring section, providing an engaging and seamless experience 
               for potential employees and visitors interested in learning more about the company
               </div>
