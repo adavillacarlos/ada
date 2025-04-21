@@ -10,7 +10,7 @@ export default function Design() {
         <div className="space-y-8">
           <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
-              <div className="font-semibold">Lumena</div>
+              <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/210957753/Auction-House-Web-Design">Lumena</a></div>
               <div className="text-gray-300 text-sm">
               A modern, user-friendly website was designed for Lumena Auctions, 
               an auction house that allows users to explore ongoing and past auctions, shop, and sell items. 
@@ -20,7 +20,7 @@ export default function Design() {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
-              <div className="font-semibold">Topline</div>
+              <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/213980689/Company-Website-UI">Topline</a></div>
               <div className="text-gray-300 text-sm">
               or Topline, a clean and informative website was created to showcase the company’s history, 
               services, and timeline. It also features a hiring section, providing an engaging and seamless experience 
@@ -30,7 +30,7 @@ export default function Design() {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
-              <div className="font-semibold">Busify</div>
+              <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/135424313/Busify-App">Busify</a></div>
               <div className="text-gray-300 text-sm">
               Busify is a mobile application designed to help users track live buses in real-time. 
               With a streamlined interface, the app enables users to plan their journeys and stay updated with the latest bus schedules, 
@@ -40,7 +40,7 @@ export default function Design() {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
-              <div className="font-semibold">GreenApp</div>
+              <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/135423621/GreenApp">GreenApp</a></div>
               <div className="text-gray-300 text-sm">
               GreenApp is a mobile application that gamifies recycling, allowing users to earn points for recycling items.
               Powered by AI, the app identifies items and provides proper recycling instructions. 
