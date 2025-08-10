@@ -21,7 +21,7 @@ export default function Experience() {
               <div className="font-semibold">Freelance</div>
               <div className="text-gray-300 text-sm">UI/UX Designer</div>
             </div>
-            <div className="text-gray-400 text-right text-sm">Jan - Jul 2024</div>
+            <div className="text-gray-400 text-right text-sm">Jan 2024 - Present</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="flex flex-col">
