@@ -16,6 +16,7 @@ export default function Project() {
                 consistency in real-time, providing instant feedback and
                 tracking performance history across previous sessions.
               </div>
+              
               <div className="flex flex-wrap gap-1 mt-2">
                 <span className="border border-blue-500 text-blue-500 px-2 py-0.5 text-xs rounded">
                   Java
