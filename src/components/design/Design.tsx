@@ -18,7 +18,7 @@ export default function Design() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-4">
+          {/* <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/213980689/Company-Website-UI">Topline</a></div>
               <div className="text-gray-300 text-sm">
@@ -27,7 +27,7 @@ export default function Design() {
               for potential employees and visitors interested in learning more about the company
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="grid grid-cols-1 gap-4">
             <div className="flex flex-col">
               <div className="font-semibold"><a className="title-link" href="https://www.behance.net/gallery/135424313/Busify-App">Busify</a></div>
